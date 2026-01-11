@@ -7,6 +7,7 @@ Built using **Tkinter** for the interface and **SymPy** for symbolic mathematics
 ---
 
 ## Preview
+<img width="269" height="324" alt="image" src="https://github.com/user-attachments/assets/68fe89d1-2fa7-4a3f-8932-7aea31549391" />
 
 ---
 
@@ -31,7 +32,7 @@ Math Syntax Guide To Ensure The Calculator Understands Your Input, Use Standard 
 | **Exponents**      | `**`                      | `x**2` for $x^2$    |
 | **Multiplication** | `*`                       | `2*x` for $2x$      |
 | **Trig Functions** | `sin()`, `cos()`, `tan()` | `sin(x)`            |
-| **Exponentials**   | `exp(x)` or `e**x`        | $e^x$               |
+| **Exponentials**   | `exp(x)` or `E**x`        | $e^x$               |
 | **Infinity**       | `oo`                      | Represents $\infty$ |
 
 How It Works: The program follows the formal definition of L'Hôpital's Rule:It takes the string input for $f(x)$ (numerator) and $g(x)$ (denominator).It uses sympy.diff() to find $f'(x)$ and $g'(x)$.It then calculates the limit of $\frac{f'(x)}{g'(x)}$ as $x \to c$ using sympy.limit().
